@@ -14,7 +14,7 @@ userInput.addEventListener("keyup",function(event){ //event is every key pressed
        // console.log(userSearchWord)
        // console.log(listName[0].textContent.toLowerCase()) 
         searchQuery = listName[i].textContent.toLowerCase();
-       
+        
        if(searchQuery.includes(userSearchWord)){
            listName[i].style.display="block";
            
